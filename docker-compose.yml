@@ -1,0 +1,8 @@
+version: '2'
+
+services:
+  pil:
+    build: .
+    command: python lab.py
+    volumes:
+      - .:/opt/pil-lab
